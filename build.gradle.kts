@@ -39,7 +39,7 @@ subprojects {
     indra {
         mitLicense()
 
-        publishSnapshotsTo("incendo", "https://repo.incendo.org/content/repositories/snapshots/")
+        publishSnapshotsTo("thbn", "https://repo.thbn.me/snapshots")
 
         javaVersions {
             target(11)
